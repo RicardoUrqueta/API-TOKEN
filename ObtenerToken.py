@@ -19,7 +19,4 @@ respuesta_json = respuesta.json()
 print(respuesta_json)
 print("#"*70)
 API_Token = respuesta_json["imdata"][0]["aaaLogin"]["attributes"]["token"]
-print("API-Token : " + API_Token)
-
-print("#"*70)
-
+print("API-Token : " + API_Token)-
