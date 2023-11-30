@@ -13,7 +13,7 @@ data = {
     }
 }
 cabecera = {"Content-Type" : "application/json"}
-respuesta = requests.post(url, json.dumps(data), headers=cabecera, verify=False)
+respuesta = requests.get(url, json.dumps(data), headers=cabecera, verify=False)
 respuesta_json = respuesta.json()
 
 print(respuesta_json)
